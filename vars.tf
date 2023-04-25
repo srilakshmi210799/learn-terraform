@@ -1,4 +1,4 @@
-variablr "simple_string"{
+variable "simple_string"{
 default="hello world"
 }
 
