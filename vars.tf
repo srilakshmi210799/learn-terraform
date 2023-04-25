@@ -10,5 +10,7 @@ default = [100,"hello",true,123]
 
 #dict/map variable
 variable "simple_dict"{
-default = {number1=100,string="hello",boolean=true}
+default = {number1=100
+string="hello"
+boolean=true}
 }
