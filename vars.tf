@@ -2,10 +2,8 @@ variable "simple_string"{
 default="hello world"
 }
 
-output "simple_string"{
-value=var.simple_string
-}
 
-output "simple_string1"{
-value = "value of simple_string = ${var.simple_string}"
+
+variable "simple_list"{
+default = [100,"hello",true,123]
 }
