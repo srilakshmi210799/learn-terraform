@@ -7,5 +7,5 @@ value=var.simple_string
 }
 
 output "simple_string1"{
-value = "value of simple_string" = ${var.simple_string}
+value = "value of simple_string1" = ${var.simple_string}
 }
