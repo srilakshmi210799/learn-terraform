@@ -10,3 +10,11 @@ output "simple_list"{
 value = var.simple_list
 
 }
+
+output "simple_dict"{
+value = var.simple_dict["number1"]
+}
+output "simple_dict"
+{
+value = var.simple_dict["boolean"]
+}
