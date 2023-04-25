@@ -14,6 +14,6 @@ value = var.simple_list
 output "simple_dict"{
 value = var.simple_dict["number1"]
 }
-output "simple_dict"{
+output "simple_dict1"{
 value = var.simple_dict["boolean"]
 }
