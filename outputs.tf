@@ -7,6 +7,6 @@ value = "value of simple_string = ${var.simple_string}"
 }
 
 output "simple_list"{
-value = var.simple_list[]
+value = var.simple_list
 
 }
