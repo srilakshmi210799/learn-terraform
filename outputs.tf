@@ -17,3 +17,7 @@ value = var.simple_dict["number1"]
 output "simple_dict1"{
 value = var.simple_dict["boolean"]
 }
+
+output "env"{
+value = var.env
+}

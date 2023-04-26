@@ -20,3 +20,4 @@
  variable "simple_dict"{
  default ={number1=100,string="hello",boolean=true,number2=123}
  }
+ var "env"
