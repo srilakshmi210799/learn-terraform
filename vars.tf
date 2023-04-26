@@ -1,15 +1,15 @@
- variable "simple_string"
- {
- default = hello world
+ variable "simple_string"{
+
+ default = "hello world"
  }
 
- variable "simple_number"
- {
+ variable "simple_number"{
+
  default =100
  }
 
- variable "simple_boolean"
- {
+ variable "simple_boolean"{
+
  default = true
  }
 
