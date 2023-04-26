@@ -1,6 +1,6 @@
  variable "simple_string"
  {
- default = "hello world"
+ default = hello world
  }
 
  variable "simple_number"
