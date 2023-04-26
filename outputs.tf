@@ -24,3 +24,6 @@ value = var.env
 output "auto_num1"{
 value = var.auto_num1
 }
+output "env"{
+value =var.env
+}
