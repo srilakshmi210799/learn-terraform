@@ -2,8 +2,8 @@ output "simple_string"{
 value=var.simple_string
 }
 
-output "simple_string1"{
-value = "value of simple_string = ${var.simple_string}"
+output "simple_number"{
+value = var.simple_number
 }
 
 output "simple_list"{
